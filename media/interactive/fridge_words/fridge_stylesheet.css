@@ -1,0 +1,71 @@
+body {
+	background: url("images/pattern_03.png");
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Ariel, sans-serif;
+	font-size: 18px;
+	color: #000000;
+	min-width: 600px;
+	min-height: 500px;
+	cursor: default;
+	overflow: hidden;
+}
+
+.drag {
+	position: absolute;
+	z-index: 0;
+	cursor: move;
+	/* making text unselectable */
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+h1 {
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 23px;
+	text-shadow: 2px 2px 3px #888888;
+		/* making text unselectable */
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+img {
+	float: left;
+	padding-right: 30px;
+	padding-top: -10px;
+}
+
+.lightbox {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0, 0.9);
+	padding-top: 100px;
+	padding-left: 150px;
+	color: #eeeeee;
+	/* making text unselectable */
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+
+.magnet span {
+	background: white;
+	padding: 5px;
+	box-shadow: 2px 2px 3px #888888;
+}
+
+p {
+	font-size: 25px;
+	line-height: 35px;
+}

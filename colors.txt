@@ -1,0 +1,5 @@
+background color #CEDDE9
+name text color #385588
+text color #444444
+
+font helvetica/tahoma/sans-serif
