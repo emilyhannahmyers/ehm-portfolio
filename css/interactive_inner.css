@@ -1,0 +1,16 @@
+h4 {
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.subheader {
+	margin-top: 0px;
+    line-height: 1.4;
+    color: #6f6f6f;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+}
+
+.interactive_header {
+	padding-left: 20px;
+	padding-top: 20px;
+}
